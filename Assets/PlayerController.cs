@@ -27,8 +27,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(downKey) && transform.position.y > -5)
         {
             transform.position += Vector3.down * Time.deltaTime * speed;
-
+         
         }
-    
+     
     }
 }
